@@ -15,20 +15,14 @@ function About() {
           <Col lg={6} className="mb-4 mb-lg-0">
             <h2 className="display-5 fw-bold mb-4">Sobre Nosotros</h2>
             <p className="lead mb-4">
-              Somos una empresa artesanal de desarrollo de software comprometida 
+              Somos una empresa de desarrollo de software comprometida 
               con la excelencia y la innovación.
             </p>
             <p className="text-muted mb-4">
-              Desde nuestros inicios, hemos trabajado con pasión para transformar 
-              las ideas de nuestros clientes en soluciones digitales efectivas. 
-              Nuestro equipo de desarrolladores expertos combina creatividad con 
-              tecnología de última generación para entregar productos que superan 
-              las expectativas.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id itaque autem illum nam magni quas, atque maiores aperiam maxime? Quisquam commodi voluptates, asperiores, pariatur aspernatur ab ratione necessitatibus quod qui, rem ad quo explicabo perferendis nulla. Adipisci optio ad atque cum excepturi quisquam vitae tenetur voluptatem! Nisi quaerat corporis, nostrum blanditiis ipsa iure nesciunt! Obcaecati asperiores nisi impedit, modi blanditiis veniam aliquam inventore minus, quibusdam reiciendis eligendi, non alias fuga consequuntur iure quisquam odio! Asperiores iure quasi corporis voluptas placeat, nobis accusantium quis ullam consequatur voluptatum provident vitae id? Omnis ab officia debitis! Porro necessitatibus doloremque labore quos exercitationem quia.
             </p>
             <p className="text-muted">
-              Creemos en el desarrollo artesanal de software: cada proyecto recibe 
-              atención personalizada, código limpio y diseño cuidadoso. No somos 
-              una fábrica de software, somos artesanos digitales.
+              lorem100
             </p>
           </Col>
           

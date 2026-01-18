@@ -1,36 +1,37 @@
 import { Container, Row, Col, Card } from 'react-bootstrap'
+import { FaCode, FaMobileAlt, FaCogs, FaLightbulb, FaShoppingCart, FaTools } from 'react-icons/fa'
 
 function Services() {
   const services = [
     {
       title: 'Desarrollo Web',
-      description: 'Creamos sitios web modernos, responsivos y optimizados para SEO que convierten visitantes en clientes.',
-      icon: '💻'
+      description: 'Creamos sitios web modernos, responsivos y optimizados para SEO.',
+      icon: <FaCode />
     },
     {
       title: 'Aplicaciones Móviles',
-      description: 'Desarrollamos apps nativas y multiplataforma para iOS y Android con la mejor experiencia de usuario.',
-      icon: '📱'
+      description: 'Desarrollamos apps nativas y multiplataforma para iOS y Android.',
+      icon: <FaMobileAlt />
     },
     {
       title: 'Software Personalizado',
-      description: 'Soluciones a medida diseñadas específicamente para las necesidades únicas de tu empresa.',
-      icon: '⚙️'
+      description: 'Soluciones a medida diseñadas para las necesidades de tu empresa.',
+      icon: <FaCogs />
     },
     {
       title: 'Consultoría IT',
-      description: 'Asesoramiento experto en tecnología para optimizar tus procesos y tomar decisiones estratégicas.',
-      icon: '💡'
+      description: 'Asesoramiento experto en tecnología para optimizar procesos.',
+      icon: <FaLightbulb />
     },
     {
       title: 'E-commerce',
-      description: 'Plataformas de comercio electrónico completas con pasarelas de pago y gestión de inventario.',
-      icon: '🛒'
+      description: 'Plataformas de comercio electrónico con pasarelas de pago.',
+      icon: <FaShoppingCart />
     },
     {
       title: 'Mantenimiento',
-      description: 'Soporte continuo y actualizaciones para mantener tu software funcionando perfectamente.',
-      icon: '🔧'
+      description: 'Soporte continuo y actualizaciones para tu software.',
+      icon: <FaTools />
     }
   ]
 
@@ -49,7 +50,7 @@ function Services() {
             <Col key={index} md={6} lg={4}>
               <Card className="h-100 shadow-sm border-0 hover-card">
                 <Card.Body className="text-center p-4">
-                  <div className="fs-1 mb-3">{service.icon}</div>
+                  <div className="fs-1 mb-3 text-primary">{service.icon}</div>
                   <Card.Title className="fw-bold mb-3">{service.title}</Card.Title>
                   <Card.Text className="text-muted">
                     {service.description}
