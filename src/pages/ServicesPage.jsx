@@ -8,10 +8,10 @@ function ServicesPage() {
       <Container className="my-5">
         <Row>
           <Col md={12} className="text-center">
-            <h1>Equipo Team</h1>
+            <h1> Sintax Solutions</h1>
             <h4>Tu marca artesanal merece brillar</h4>
             <p>
-              En Equipo Team, ayudamos a marcas artesanales como <strong>Lácteos del Valle</strong> a destacar su esencia.
+              En  Sintax Solutions, ayudamos a marcas artesanales como <strong>Lácteos del Valle</strong> a destacar su esencia.
               Creamos experiencias digitales que transmiten sabor, tradición y confianza.
             </p>
           </Col>

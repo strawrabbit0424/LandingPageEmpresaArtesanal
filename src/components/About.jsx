@@ -15,17 +15,16 @@ function About() {
           <Col lg={6} className="mb-4 mb-lg-0">
             <h2 className="display-5 fw-bold mb-4">Sobre Nosotros</h2>
             <p className="lead mb-4">
-              Somos una empresa de desarrollo de software comprometida 
+              Somos una empresa de desarrollo de software comprometida
               con la excelencia y la innovación.
             </p>
             <p className="text-muted mb-4">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id itaque autem illum nam magni quas, atque maiores aperiam maxime? Quisquam commodi voluptates, asperiores, pariatur aspernatur ab ratione necessitatibus quod qui, rem ad quo explicabo perferendis nulla. Adipisci optio ad atque cum excepturi quisquam vitae tenetur voluptatem! Nisi quaerat corporis, nostrum blanditiis ipsa iure nesciunt! Obcaecati asperiores nisi impedit, modi blanditiis veniam aliquam inventore minus, quibusdam reiciendis eligendi, non alias fuga consequuntur iure quisquam odio! Asperiores iure quasi corporis voluptas placeat, nobis accusantium quis ullam consequatur voluptatum provident vitae id? Omnis ab officia debitis! Porro necessitatibus doloremque labore quos exercitationem quia.
-            </p>
-            <p className="text-muted">
-              lorem100
+              Nos enfocamos en transformar las necesidades de nuestros clientes en soluciones digitales eficientes y escalables.
+              Trabajamos con tecnologías modernas y metodologías ágiles, lo que nos permite ofrecer productos de alta calidad que impulsan el crecimiento y la competitividad de los negocios.
+              Nuestro equipo multidisciplinario se distingue por la cercanía y el acompañamiento constante, asegurando que cada proyecto se construya sobre bases sólidas de confianza, profesionalismo y resultados.
             </p>
           </Col>
-          
+
           <Col lg={6}>
             <div className="bg-white rounded shadow p-4">
               <Row className="g-4">
@@ -40,7 +39,7 @@ function About() {
                   </Col>
                 ))}
               </Row>
-              
+
               <div className="mt-5">
                 <h5 className="fw-bold mb-3">Nuestros Valores</h5>
                 <ul className="list-unstyled">
