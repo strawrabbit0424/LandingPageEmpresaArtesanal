@@ -13,7 +13,7 @@ function Hero() {
           que impulsa el crecimiento de tu negocio con tecnología de vanguardia.
         </p>
         <div className="d-flex gap-3 flex-wrap justify-content-center">
-          <Button variant="light" size="lg" className="px-4 py-2">
+          <Button as={Link} to="/servicios" variant="light" size="lg" className="px-4 py-2">
             Conocer Servicios
           </Button>
           <Button as={Link} to="/contacto" variant="outline-light" size="lg" className="px-4 py-2">
