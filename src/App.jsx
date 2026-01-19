@@ -3,6 +3,7 @@ import CustomNavbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import ContactPage from './pages/ContactPage'
+import ServicesPage from './pages/ServicesPage';
 import { MdContactPage } from 'react-icons/md'
 
 function App() {
