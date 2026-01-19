@@ -1,6 +1,6 @@
 import { Container, Row, Col, Card } from 'react-bootstrap'
 import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa'
-import AndresImg from '../assets/images/AndresC.jpg'
+import SaidImg from '../assets/images/SaidD.png'
 import RubiImg from '../assets/images/RubiT.jpg'
 import NicoImg from '../assets/images/NicoleM.jpg'
 import MonseImg from '../assets/images/MonseJ.jpg'
@@ -39,7 +39,7 @@ function Team() {
       name: "Said Dominguez",
       role: "Backend Developer",
       description: "Experto en Node.js y bases de datos. Construye APIs robustas y escalables que potencian aplicaciones de alto rendimiento.",
-      image: AndresImg,
+      image: SaidImg,
       linkedin: "#",
       github: "#",
       email: "said@empresa.com"

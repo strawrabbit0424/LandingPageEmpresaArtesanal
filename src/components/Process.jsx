@@ -213,7 +213,7 @@ function Process() {
             }}
           >
             <h5 className="fw-bold mb-3" style={{ color: '#2D4654' }}>
-              ⏱️ Tiempo Promedio de Desarrollo
+              Tiempo Promedio de Desarrollo
             </h5>
             <Row className="text-center">
               <Col md={4}>

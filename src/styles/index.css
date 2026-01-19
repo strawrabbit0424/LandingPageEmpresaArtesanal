@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --gris-oscuro: #353535;
+  --gris-oscuro: #434141;
   --verde-azulado: #3C6E71;
   --blanco: #FFFFFF;
   --gris-claro: #D9D9D9;
@@ -23,6 +23,7 @@
 
 .navbar-custom {
   background-color: var(--gris-oscuro);
+  height: 90px;
 }
 
 .navbar-custom .navbar-brand {
