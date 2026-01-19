@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import ContactPage from './pages/ContactPage'
 import Team from './pages/Team'
 import Testimonials from './pages/Testimonials'
+import ServicesPage from './pages/ServicesPage';
+import { MdContactPage } from 'react-icons/md'
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route path="/contacto" element={<ContactPage />} />
         <Route path="/equipo" element={<Team />} />
         <Route path="/testimonios" element={<Testimonials />} />
+        <Route path="/servicios" element={<ServicesPage />} />
       </Routes>
       
       <Footer />
