@@ -53,7 +53,6 @@
 }
 
 
-/* Aplicar Montserrat a toda la página */
 * {
   font-family: 'Montserrat', sans-serif;
 }
@@ -171,11 +170,7 @@ body {
 }
 
 /* TESTIMONIALS */
-.testimonial-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
 .testimonial-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 15px 40px rgba(70, 129, 137, 0.3) !important;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(70, 129, 137, 0.2) !important;
 }

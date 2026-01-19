@@ -6,32 +6,32 @@ function Services() {
     {
       title: 'Desarrollo Web',
       description: 'Creamos sitios web modernos, responsivos y optimizados para SEO.',
-      icon: <FaCode />
+      icon: <FaCode style={{color: '#284B63'}} />
     },
     {
       title: 'Aplicaciones Móviles',
       description: 'Desarrollamos apps nativas y multiplataforma para iOS y Android.',
-      icon: <FaMobileAlt />
+      icon: <FaMobileAlt style={{color: '#284B63'}} />
     },
     {
       title: 'Software Personalizado',
       description: 'Soluciones a medida diseñadas para las necesidades de tu empresa.',
-      icon: <FaCogs />
+      icon: <FaCogs style={{color: '#284B63'}} />
     },
     {
       title: 'Consultoría IT',
       description: 'Asesoramiento experto en tecnología para optimizar procesos.',
-      icon: <FaLightbulb />
+      icon: <FaLightbulb style={{color: '#284B63'}} />
     },
     {
       title: 'E-commerce',
       description: 'Plataformas de comercio electrónico con pasarelas de pago.',
-      icon: <FaShoppingCart />
+      icon: <FaShoppingCart style={{color: '#284B63'}} />
     },
     {
       title: 'Mantenimiento',
       description: 'Soporte continuo y actualizaciones para tu software.',
-      icon: <FaTools />
+      icon: <FaTools style={{color: '#284B63'}} />
     }
   ]
 
