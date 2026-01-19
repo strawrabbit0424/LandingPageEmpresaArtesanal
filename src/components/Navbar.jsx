@@ -7,7 +7,7 @@ function CustomNavbar() {
       <Container>
         <Navbar.Brand as={Link} to="/" className="d-flex align-items-center gap-2">
           <img
-            src="/logo.svg"
+            src="/logoempresatransps.webp"
             alt="Logo"
             width="30"
             height="30"
