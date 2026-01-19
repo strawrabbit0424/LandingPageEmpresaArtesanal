@@ -11,6 +11,8 @@ function CustomNavbar () {
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/">Inicio</Nav.Link>
             <Nav.Link as={Link} to="/servicios">Servicios</Nav.Link>
+            <Nav.Link as={Link} to="/equipo">Conocenos</Nav.Link>
+            <Nav.Link as={Link} to="/testimonios">Testimonios</Nav.Link>
             <Nav.Link as={Link} to="/contacto">Contacto</Nav.Link>
             {/*Puede ir icono de iniciar sesión */}
           </Nav>

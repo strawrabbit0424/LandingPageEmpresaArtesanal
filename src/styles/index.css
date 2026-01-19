@@ -1,7 +1,5 @@
-/* Importar fuente de Google */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-/* Aplicar Montserrat a toda la página */
 * {
   font-family: 'Montserrat', sans-serif;
 }
@@ -19,4 +17,111 @@ body {
 .hover-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+
+
+/* PROYECTS */
+.proyects-carousel .carousel-control-prev,
+.proyects-carousel .carousel-control-next {
+  width: 8%;
+  opacity: 1;
+  z-index: 10;
+}
+
+.proyects-carousel .carousel-control-prev:hover .carousel-control-custom circle,
+.proyects-carousel .carousel-control-next:hover .carousel-control-custom circle {
+  fill: #2D4654;
+  transition: fill 0.3s ease;
+}
+
+.carousel-control-custom {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.3));
+}
+
+.proyects-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.proyects-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(70, 129, 137, 0.3) !important;
+}
+
+.proyects-card:hover .proyects-image {
+  transform: scale(1.05);
+}
+
+.carousel-indicators button {
+  background-color: #468189 !important;
+}
+
+.carousel-indicators button.active {
+  background-color: #2D4654 !important;
+}
+
+/* PROCESS */
+.process-circle:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 8px 30px rgba(70, 129, 137, 0.6) !important;
+}
+
+.process-card-horizontal {
+  transition: all 0.3s ease;
+}
+
+.process-card-horizontal:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(70, 129, 137, 0.3) !important;
+}
+
+.process-step-horizontal {
+  position: relative;
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
+}
+
+.process-step-horizontal:nth-child(1) { animation-delay: 0.1s; }
+.process-step-horizontal:nth-child(2) { animation-delay: 0.2s; }
+.process-step-horizontal:nth-child(3) { animation-delay: 0.3s; }
+.process-step-horizontal:nth-child(4) { animation-delay: 0.4s; }
+.process-step-horizontal:nth-child(5) { animation-delay: 0.5s; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* TEAM*/
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(70, 129, 137, 0.3) !important;
+}
+
+.team-card:hover .team-image {
+  transform: scale(1.1);
+}
+
+.team-card:hover .team-overlay {
+  opacity: 1 !important;
+}
+
+.team-overlay a:hover {
+  transform: scale(1.2);
+}
+
+/* TESTIMONIALS */
+.testimonial-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(70, 129, 137, 0.3) !important;
 }
